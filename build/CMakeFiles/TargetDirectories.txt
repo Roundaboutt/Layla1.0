@@ -1,0 +1,5 @@
+/home/a1097/Project/mnist_eval/build/CMakeFiles/edit_cache.dir
+/home/a1097/Project/mnist_eval/build/CMakeFiles/rebuild_cache.dir
+/home/a1097/Project/mnist_eval/build/cpp_eval/CMakeFiles/main.dir
+/home/a1097/Project/mnist_eval/build/cpp_eval/CMakeFiles/edit_cache.dir
+/home/a1097/Project/mnist_eval/build/cpp_eval/CMakeFiles/rebuild_cache.dir

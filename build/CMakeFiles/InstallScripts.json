@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/a1097/Project/mnist_eval/build/cmake_install.cmake",
+		"/home/a1097/Project/mnist_eval/build/cpp_eval/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

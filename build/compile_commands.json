@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/a1097/Project/mnist_eval/build",
+  "command": "/usr/bin/g++ -g -o cpp_eval/CMakeFiles/main.dir/main.cpp.o -c /home/a1097/Project/mnist_eval/cpp_eval/main.cpp",
+  "file": "/home/a1097/Project/mnist_eval/cpp_eval/main.cpp",
+  "output": "/home/a1097/Project/mnist_eval/build/cpp_eval/CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/home/a1097/Project/mnist_eval/build",
+  "command": "/usr/bin/g++ -g -o cpp_eval/CMakeFiles/main.dir/eval.cpp.o -c /home/a1097/Project/mnist_eval/cpp_eval/eval.cpp",
+  "file": "/home/a1097/Project/mnist_eval/cpp_eval/eval.cpp",
+  "output": "/home/a1097/Project/mnist_eval/build/cpp_eval/CMakeFiles/main.dir/eval.cpp.o"
+}
+]
