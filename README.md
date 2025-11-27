@@ -5,6 +5,6 @@
 # 使用步骤
 1. 运行`./tain/train.py`，得到训练好的模型`mnist_net.pth`
 2. 运行`./tain/export.py`，将pth文件转为C++可读取的二进制文件
-3. 运行`./cpp_eval/main.cpp`，即可在本地推理`MNIST`手写数字数据集
+3. 修改`weights_path, images_path, labels_path`为本地路径，运行`./cpp_eval/main.cpp`，即可在本地推理`MNIST`手写数字数据集
 ---
 千里之行，始于足下。本人还是研一刚入学的学生，由于技术力有限，只能先从最简单的神经网络推理做起。希望能以这个项目为起点，在毕业前把它搭建成一个完整的llm推理框架
