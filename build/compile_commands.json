@@ -1,13 +1,13 @@
 [
 {
   "directory": "/home/a1097/Project/layla/build",
-  "command": "/usr/bin/g++ -g -o mnist/cpp_eval/CMakeFiles/main.dir/main.cpp.o -c /home/a1097/Project/layla/mnist/cpp_eval/main.cpp",
+  "command": "/usr/bin/g++ -I/home/a1097/Project/layla/mnist/cpp_eval/include/layla.h -g -o mnist/cpp_eval/CMakeFiles/main.dir/main.cpp.o -c /home/a1097/Project/layla/mnist/cpp_eval/main.cpp",
   "file": "/home/a1097/Project/layla/mnist/cpp_eval/main.cpp",
   "output": "/home/a1097/Project/layla/build/mnist/cpp_eval/CMakeFiles/main.dir/main.cpp.o"
 },
 {
   "directory": "/home/a1097/Project/layla/build",
-  "command": "/usr/bin/g++ -g -o mnist/cpp_eval/CMakeFiles/main.dir/eval.cpp.o -c /home/a1097/Project/layla/mnist/cpp_eval/eval.cpp",
+  "command": "/usr/bin/g++ -I/home/a1097/Project/layla/mnist/cpp_eval/include/layla.h -g -o mnist/cpp_eval/CMakeFiles/main.dir/eval.cpp.o -c /home/a1097/Project/layla/mnist/cpp_eval/eval.cpp",
   "file": "/home/a1097/Project/layla/mnist/cpp_eval/eval.cpp",
   "output": "/home/a1097/Project/layla/build/mnist/cpp_eval/CMakeFiles/main.dir/eval.cpp.o"
 }

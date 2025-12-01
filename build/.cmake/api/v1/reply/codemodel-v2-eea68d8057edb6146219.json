@@ -1,0 +1,122 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.2"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "mnist",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-mnist-Debug-b208b5ec518d72ae3203.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "mnist"
+				},
+				{
+					"build" : "mnist/cpp_eval",
+					"jsonFile" : "directory-mnist.cpp_eval-Debug-7234081510d757bf6a7b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "mnist/cpp_eval",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "vgg16",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-vgg16-Debug-bfc89126e2a264398cee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "vgg16"
+				},
+				{
+					"build" : "vgg16/cpp_eval",
+					"jsonFile" : "directory-vgg16.cpp_eval-Debug-f97c9fa213bb07584a93.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.2"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "vgg16/cpp_eval"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "layla",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "main::@c01345951b534f78fa28",
+					"jsonFile" : "target-main-Debug-d5f8f3d28c9eb065fc92.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/a1097/Project/layla/build",
+		"source" : "/home/a1097/Project/layla"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

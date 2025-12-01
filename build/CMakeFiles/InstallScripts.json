@@ -3,7 +3,9 @@
 	[
 		"/home/a1097/Project/layla/build/cmake_install.cmake",
 		"/home/a1097/Project/layla/build/mnist/cmake_install.cmake",
-		"/home/a1097/Project/layla/build/mnist/cpp_eval/cmake_install.cmake"
+		"/home/a1097/Project/layla/build/mnist/cpp_eval/cmake_install.cmake",
+		"/home/a1097/Project/layla/build/vgg16/cmake_install.cmake",
+		"/home/a1097/Project/layla/build/vgg16/cpp_eval/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

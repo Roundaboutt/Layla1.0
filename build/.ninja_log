@@ -2,3 +2,9 @@
 0	411	1764584305962779110	mnist/cpp_eval/CMakeFiles/main.dir/main.cpp.o	8c6ead5d9215ef85
 0	494	1764584305962779110	mnist/cpp_eval/CMakeFiles/main.dir/eval.cpp.o	8ba29763f61ddd5f
 494	598	1764584306452833425	mnist/cpp_eval/main	b72d8e1422ad6f6d
+0	423	1764587706709718919	mnist/cpp_eval/CMakeFiles/main.dir/main.cpp.o	f750050192e49421
+1	488	1764587706719718953	mnist/cpp_eval/CMakeFiles/main.dir/eval.cpp.o	8b633ed037112f1b
+488	595	1764587707199720573	mnist/cpp_eval/main	b72d8e1422ad6f6d
+1	360	1764587802134740312	mnist/cpp_eval/CMakeFiles/main.dir/main.cpp.o	f750050192e49421
+1	444	1764587802134740312	mnist/cpp_eval/CMakeFiles/main.dir/eval.cpp.o	8b633ed037112f1b
+444	553	1764587802574768216	mnist/cpp_eval/main	b72d8e1422ad6f6d
