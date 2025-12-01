@@ -13,7 +13,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "cpp_eval",
-		"source" : "cpp_eval"
+		"build" : "mnist/cpp_eval",
+		"source" : "mnist/cpp_eval"
 	}
 }

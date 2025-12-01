@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: mnist_eval
+# Project: layla
 # Configurations: Debug
 # =============================================================================
 
@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/a1097/Project/mnist_eval/build/
+cmake_ninja_workdir = /home/a1097/Project/layla/build/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/a1097/Project/mnist_eval/build && /home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/ccmake -S/home/a1097/Project/mnist_eval -B/home/a1097/Project/mnist_eval/build
+  COMMAND = cd /home/a1097/Project/layla/build && /home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/ccmake -S/home/a1097/Project/layla -B/home/a1097/Project/layla/build
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -57,7 +57,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/a1097/Project/mnist_eval/build && /home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/cmake --regenerate-during-build -S/home/a1097/Project/mnist_eval -B/home/a1097/Project/mnist_eval/build
+  COMMAND = cd /home/a1097/Project/layla/build && /home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/cmake --regenerate-during-build -S/home/a1097/Project/layla -B/home/a1097/Project/layla/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -66,7 +66,36 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/a1097/Project/mnist_eval/CMakeLists.txt
+# /home/a1097/Project/layla/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build mnist/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/a1097/Project/layla/build/mnist && /home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/ccmake -S/home/a1097/Project/layla -B/home/a1097/Project/layla/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build mnist/edit_cache: phony mnist/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build mnist/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/a1097/Project/layla/build/mnist && /home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/cmake --regenerate-during-build -S/home/a1097/Project/layla -B/home/a1097/Project/layla/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build mnist/rebuild_cache: phony mnist/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/a1097/Project/layla/mnist/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -78,21 +107,25 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_main: phony || .
 
-build cpp_eval/CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_unscanned_Debug /home/a1097/Project/mnist_eval/cpp_eval/main.cpp || cmake_object_order_depends_target_main
+build mnist/cpp_eval/CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_unscanned_Debug /home/a1097/Project/layla/mnist/cpp_eval/main.cpp || cmake_object_order_depends_target_main
   CONFIG = Debug
-  DEP_FILE = cpp_eval/CMakeFiles/main.dir/main.cpp.o.d
+  DEP_FILE = mnist/cpp_eval/CMakeFiles/main.dir/main.cpp.o.d
   FLAGS = -g
-  OBJECT_DIR = cpp_eval/CMakeFiles/main.dir
-  OBJECT_FILE_DIR = cpp_eval/CMakeFiles/main.dir
-  TARGET_SUPPORT_DIR = cpp_eval/CMakeFiles/main.dir
+  OBJECT_DIR = mnist/cpp_eval/CMakeFiles/main.dir
+  OBJECT_FILE_DIR = mnist/cpp_eval/CMakeFiles/main.dir
+  TARGET_COMPILE_PDB = mnist/cpp_eval/CMakeFiles/main.dir/
+  TARGET_PDB = mnist/cpp_eval/main.pdb
+  TARGET_SUPPORT_DIR = mnist/cpp_eval/CMakeFiles/main.dir
 
-build cpp_eval/CMakeFiles/main.dir/eval.cpp.o: CXX_COMPILER__main_unscanned_Debug /home/a1097/Project/mnist_eval/cpp_eval/eval.cpp || cmake_object_order_depends_target_main
+build mnist/cpp_eval/CMakeFiles/main.dir/eval.cpp.o: CXX_COMPILER__main_unscanned_Debug /home/a1097/Project/layla/mnist/cpp_eval/eval.cpp || cmake_object_order_depends_target_main
   CONFIG = Debug
-  DEP_FILE = cpp_eval/CMakeFiles/main.dir/eval.cpp.o.d
+  DEP_FILE = mnist/cpp_eval/CMakeFiles/main.dir/eval.cpp.o.d
   FLAGS = -g
-  OBJECT_DIR = cpp_eval/CMakeFiles/main.dir
-  OBJECT_FILE_DIR = cpp_eval/CMakeFiles/main.dir
-  TARGET_SUPPORT_DIR = cpp_eval/CMakeFiles/main.dir
+  OBJECT_DIR = mnist/cpp_eval/CMakeFiles/main.dir
+  OBJECT_FILE_DIR = mnist/cpp_eval/CMakeFiles/main.dir
+  TARGET_COMPILE_PDB = mnist/cpp_eval/CMakeFiles/main.dir/
+  TARGET_PDB = mnist/cpp_eval/main.pdb
+  TARGET_SUPPORT_DIR = mnist/cpp_eval/CMakeFiles/main.dir
 
 
 # =============================================================================
@@ -100,48 +133,49 @@ build cpp_eval/CMakeFiles/main.dir/eval.cpp.o: CXX_COMPILER__main_unscanned_Debu
 
 
 #############################################
-# Link the executable cpp_eval/main
+# Link the executable mnist/cpp_eval/main
 
-build cpp_eval/main: CXX_EXECUTABLE_LINKER__main_Debug cpp_eval/CMakeFiles/main.dir/main.cpp.o cpp_eval/CMakeFiles/main.dir/eval.cpp.o
+build mnist/cpp_eval/main: CXX_EXECUTABLE_LINKER__main_Debug mnist/cpp_eval/CMakeFiles/main.dir/main.cpp.o mnist/cpp_eval/CMakeFiles/main.dir/eval.cpp.o
   CONFIG = Debug
-  DEP_FILE = cpp_eval/CMakeFiles/main.dir/link.d
+  DEP_FILE = mnist/cpp_eval/CMakeFiles/main.dir/link.d
   FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=cpp_eval/CMakeFiles/main.dir/link.d
-  OBJECT_DIR = cpp_eval/CMakeFiles/main.dir
+  LINK_FLAGS = -Wl,--dependency-file=mnist/cpp_eval/CMakeFiles/main.dir/link.d
+  OBJECT_DIR = mnist/cpp_eval/CMakeFiles/main.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = cpp_eval/main
-  TARGET_PDB = main.dbg
-  TARGET_SUPPORT_DIR = cpp_eval/CMakeFiles/main.dir
+  TARGET_COMPILE_PDB = mnist/cpp_eval/CMakeFiles/main.dir/
+  TARGET_FILE = mnist/cpp_eval/main
+  TARGET_PDB = mnist/cpp_eval/main.pdb
+  TARGET_SUPPORT_DIR = mnist/cpp_eval/CMakeFiles/main.dir
 
 
 #############################################
 # Utility command for edit_cache
 
-build cpp_eval/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/a1097/Project/mnist_eval/build/cpp_eval && /home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/ccmake -S/home/a1097/Project/mnist_eval -B/home/a1097/Project/mnist_eval/build
+build mnist/cpp_eval/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/a1097/Project/layla/build/mnist/cpp_eval && /home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/ccmake -S/home/a1097/Project/layla -B/home/a1097/Project/layla/build
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
 
-build cpp_eval/edit_cache: phony cpp_eval/CMakeFiles/edit_cache.util
+build mnist/cpp_eval/edit_cache: phony mnist/cpp_eval/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build cpp_eval/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/a1097/Project/mnist_eval/build/cpp_eval && /home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/cmake --regenerate-during-build -S/home/a1097/Project/mnist_eval -B/home/a1097/Project/mnist_eval/build
+build mnist/cpp_eval/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/a1097/Project/layla/build/mnist/cpp_eval && /home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/cmake --regenerate-during-build -S/home/a1097/Project/layla -B/home/a1097/Project/layla/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build cpp_eval/rebuild_cache: phony cpp_eval/CMakeFiles/rebuild_cache.util
+build mnist/cpp_eval/rebuild_cache: phony mnist/cpp_eval/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
 
-build main: phony cpp_eval/main
+build main: phony mnist/cpp_eval/main
 
 # =============================================================================
 # Folder targets.
@@ -149,30 +183,44 @@ build main: phony cpp_eval/main
 # =============================================================================
 
 #############################################
-# Folder: /home/a1097/Project/mnist_eval/build
+# Folder: /home/a1097/Project/layla/build
 
-build codegen: phony cpp_eval/codegen
-
-# =============================================================================
-
-#############################################
-# Folder: /home/a1097/Project/mnist_eval/build/cpp_eval
-
-build cpp_eval/codegen: phony
+build codegen: phony mnist/codegen
 
 # =============================================================================
 
 #############################################
-# Folder: /home/a1097/Project/mnist_eval/build
+# Folder: /home/a1097/Project/layla/build/mnist
 
-build all: phony cpp_eval/all
+build mnist/codegen: phony mnist/cpp_eval/codegen
 
 # =============================================================================
 
 #############################################
-# Folder: /home/a1097/Project/mnist_eval/build/cpp_eval
+# Folder: /home/a1097/Project/layla/build/mnist/cpp_eval
 
-build cpp_eval/all: phony cpp_eval/main
+build mnist/cpp_eval/codegen: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /home/a1097/Project/layla/build
+
+build all: phony mnist/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/a1097/Project/layla/build/mnist
+
+build mnist/all: phony mnist/cpp_eval/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/a1097/Project/layla/build/mnist/cpp_eval
+
+build mnist/cpp_eval/all: phony mnist/cpp_eval/main
 
 # =============================================================================
 # Built-in targets
@@ -181,14 +229,14 @@ build cpp_eval/all: phony cpp_eval/main
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja /home/a1097/Project/mnist_eval/build/cmake_install.cmake /home/a1097/Project/mnist_eval/build/cpp_eval/cmake_install.cmake: RERUN_CMAKE | /home/a1097/Project/mnist_eval/CMakeLists.txt /home/a1097/Project/mnist_eval/cpp_eval/CMakeLists.txt /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeGenericSystem.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-C.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Linker/GNU-C.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Linker/GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-C.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-GNU-C.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-GNU-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.2.0-rc1/CMakeCCompiler.cmake CMakeFiles/4.2.0-rc1/CMakeCXXCompiler.cmake CMakeFiles/4.2.0-rc1/CMakeSystem.cmake
+build build.ninja /home/a1097/Project/layla/build/cmake_install.cmake /home/a1097/Project/layla/build/mnist/cmake_install.cmake /home/a1097/Project/layla/build/mnist/cpp_eval/cmake_install.cmake: RERUN_CMAKE | /home/a1097/Project/layla/CMakeLists.txt /home/a1097/Project/layla/mnist/CMakeLists.txt /home/a1097/Project/layla/mnist/cpp_eval/CMakeLists.txt /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCCompiler.cmake.in /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCCompilerABI.c /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompiler.cmake.in /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCompilerIdDetection.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompilerSupport.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeGenericSystem.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeNinjaFindMake.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeParseImplicitIncludeInfo.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeParseImplicitLinkInfo.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeParseLibraryArchitecture.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeSystem.cmake.in /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeTestCompilerCommon.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Borland-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Cray-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/CrayClang-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Diab-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GHS-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-C.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-CXX-CXXImportStd.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/IAR-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Intel-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/OrangeC-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/PGI-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Renesas-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/SCO-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/TI-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/TIClang-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeInspectCLinker.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeInspectCXXLinker.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/FeatureTesting.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Linker/GNU-C.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Linker/GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-C.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-Determine-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-GNU-C.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-GNU-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.2.0-rc1/CMakeCCompiler.cmake CMakeFiles/4.2.0-rc1/CMakeCXXCompiler.cmake CMakeFiles/4.2.0-rc1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/a1097/Project/mnist_eval/CMakeLists.txt /home/a1097/Project/mnist_eval/cpp_eval/CMakeLists.txt /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeGenericSystem.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-C.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Linker/GNU-C.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Linker/GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-C.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-GNU-C.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-GNU-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.2.0-rc1/CMakeCCompiler.cmake CMakeFiles/4.2.0-rc1/CMakeCXXCompiler.cmake CMakeFiles/4.2.0-rc1/CMakeSystem.cmake: phony
+build /home/a1097/Project/layla/CMakeLists.txt /home/a1097/Project/layla/mnist/CMakeLists.txt /home/a1097/Project/layla/mnist/cpp_eval/CMakeLists.txt /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCCompiler.cmake.in /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCCompilerABI.c /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompiler.cmake.in /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCompilerIdDetection.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineCompilerSupport.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeGenericSystem.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeNinjaFindMake.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeParseImplicitIncludeInfo.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeParseImplicitLinkInfo.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeParseLibraryArchitecture.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeSystem.cmake.in /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeTestCompilerCommon.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Borland-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Cray-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/CrayClang-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Diab-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GHS-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-C.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-CXX-CXXImportStd.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/IAR-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Intel-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/OrangeC-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/PGI-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Renesas-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/SCO-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/TI-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/TIClang-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeInspectCLinker.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/CMakeInspectCXXLinker.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Internal/FeatureTesting.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Linker/GNU-C.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Linker/GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-C.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-Determine-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-GNU-C.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-GNU-CXX.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/Linux.cmake /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.2.0-rc1/CMakeCCompiler.cmake CMakeFiles/4.2.0-rc1/CMakeCXXCompiler.cmake CMakeFiles/4.2.0-rc1/CMakeSystem.cmake: phony
 
 
 #############################################

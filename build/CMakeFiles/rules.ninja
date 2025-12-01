@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: mnist_eval
+# Project: layla
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -44,7 +44,7 @@ rule CXX_EXECUTABLE_LINKER__main_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/cmake --regenerate-during-build -S/home/a1097/Project/mnist_eval -B/home/a1097/Project/mnist_eval/build
+  command = /home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/cmake --regenerate-during-build -S/home/a1097/Project/layla -B/home/a1097/Project/layla/build
   description = Re-running CMake...
   generator = 1
 

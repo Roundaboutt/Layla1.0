@@ -16,9 +16,9 @@ class Net(nn.Module):
         out = self.fc2(out)
         return out
 net = Net(input_size=784, hidden_size=500, num_classes=10)
-net.load_state_dict(torch.load("mnist_net.pth"))
+net.load_state_dict(torch.load("./mnist/mnist_net.pth"))
 
-with open("model.bin", "wb") as f:
+with open("./mnist/model.bin", "wb") as f:
     # 转换为 numpy 数组后，强制指定类型为 float32
     fc1_weight = net.fc1.weight.detach().cpu().numpy().astype(np.float32)
     fc1_bias = net.fc1.bias.detach().cpu().numpy().astype(np.float32)

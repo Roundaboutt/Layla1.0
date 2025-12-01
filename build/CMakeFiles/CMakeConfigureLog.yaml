@@ -20,7 +20,7 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -33,7 +33,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -59,7 +58,7 @@ events:
       - "/snap/bin/"
       - "/usr/local/cuda/bin/"
     searched_directories:
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/uname"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/uname"
       - "/home/a1097/miniconda3/bin/uname"
       - "/home/a1097/miniconda3/condabin/uname"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/uname"
@@ -69,7 +68,7 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -82,7 +81,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -138,7 +136,7 @@ events:
       - "ninja"
       - "samu"
     candidate_directories:
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -151,7 +149,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -177,14 +174,14 @@ events:
       - "/snap/bin/"
       - "/usr/local/cuda/bin/"
     searched_directories:
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/ninja-build"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/ninja"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/samu"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/ninja-build"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/ninja"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/samu"
       - "/home/a1097/miniconda3/bin/ninja-build"
     found: "/home/a1097/miniconda3/bin/ninja"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -197,7 +194,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -252,7 +248,7 @@ events:
     found: "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -265,7 +261,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -313,7 +308,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/a1097/Project/mnist_eval/build/CMakeFiles/4.2.0-rc1/CompilerIdC/a.out
+        /home/a1097/Project/layla/build/CMakeFiles/4.2.0-rc1/CompilerIdC/a.out
       
   -
     kind: "find-v1"
@@ -336,7 +331,7 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -348,7 +343,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -376,7 +370,7 @@ events:
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -389,7 +383,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -438,7 +431,7 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -450,7 +443,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -478,7 +470,7 @@ events:
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -491,7 +483,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -540,7 +531,7 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -552,7 +543,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -580,7 +570,7 @@ events:
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -593,7 +583,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -642,7 +631,7 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -654,7 +643,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -682,7 +670,7 @@ events:
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -695,7 +683,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -744,7 +731,7 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -756,7 +743,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -784,7 +770,7 @@ events:
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -797,7 +783,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -846,7 +831,7 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -858,7 +843,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -886,7 +870,7 @@ events:
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -899,7 +883,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -948,7 +931,7 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -960,7 +943,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -988,7 +970,7 @@ events:
     found: "/usr/bin/objcopy"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -1001,7 +983,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -1050,7 +1031,7 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -1062,7 +1043,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -1090,7 +1070,7 @@ events:
     found: "/usr/bin/readelf"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -1103,7 +1083,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -1152,7 +1131,7 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -1164,7 +1143,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -1191,7 +1169,7 @@ events:
       - "/usr/local/cuda/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/dlltool"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/dlltool"
       - "/home/a1097/miniconda3/bin/dlltool"
       - "/home/a1097/miniconda3/condabin/dlltool"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/dlltool"
@@ -1203,7 +1181,6 @@ events:
       - "/usr/games/dlltool"
       - "/usr/local/games/dlltool"
       - "/usr/lib/wsl/lib/dlltool"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/dlltool"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/dlltool"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/dlltool"
       - "/mnt/c/Windows/system32/dlltool"
@@ -1231,7 +1208,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -1244,7 +1221,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -1293,7 +1269,7 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -1305,7 +1281,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -1333,7 +1308,7 @@ events:
     found: "/usr/bin/addr2line"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -1346,7 +1321,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -1395,7 +1369,7 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -1407,7 +1381,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -1434,7 +1407,7 @@ events:
       - "/usr/local/cuda/bin/"
     searched_directories:
       - "/usr/bin/tapi"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/tapi"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/tapi"
       - "/home/a1097/miniconda3/bin/tapi"
       - "/home/a1097/miniconda3/condabin/tapi"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/tapi"
@@ -1446,7 +1419,6 @@ events:
       - "/usr/games/tapi"
       - "/usr/local/games/tapi"
       - "/usr/lib/wsl/lib/tapi"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/tapi"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/tapi"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/tapi"
       - "/mnt/c/Windows/system32/tapi"
@@ -1474,7 +1446,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -1487,7 +1459,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -1539,7 +1510,7 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -1551,7 +1522,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -1578,7 +1548,7 @@ events:
       - "/usr/local/cuda/bin/"
     searched_directories:
       - "/usr/bin/gcc-ar-13.3"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/gcc-ar-13.3"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/gcc-ar-13.3"
       - "/home/a1097/miniconda3/bin/gcc-ar-13.3"
       - "/home/a1097/miniconda3/condabin/gcc-ar-13.3"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/gcc-ar-13.3"
@@ -1590,7 +1560,6 @@ events:
       - "/usr/games/gcc-ar-13.3"
       - "/usr/local/games/gcc-ar-13.3"
       - "/usr/lib/wsl/lib/gcc-ar-13.3"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/gcc-ar-13.3"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/gcc-ar-13.3"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/gcc-ar-13.3"
       - "/mnt/c/Windows/system32/gcc-ar-13.3"
@@ -1618,7 +1587,7 @@ events:
     found: "/usr/bin/gcc-ar-13"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -1631,7 +1600,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -1683,7 +1651,7 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -1695,7 +1663,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -1722,7 +1689,7 @@ events:
       - "/usr/local/cuda/bin/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-13.3"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/gcc-ranlib-13.3"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/gcc-ranlib-13.3"
       - "/home/a1097/miniconda3/bin/gcc-ranlib-13.3"
       - "/home/a1097/miniconda3/condabin/gcc-ranlib-13.3"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/gcc-ranlib-13.3"
@@ -1734,7 +1701,6 @@ events:
       - "/usr/games/gcc-ranlib-13.3"
       - "/usr/local/games/gcc-ranlib-13.3"
       - "/usr/lib/wsl/lib/gcc-ranlib-13.3"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/gcc-ranlib-13.3"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/gcc-ranlib-13.3"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/gcc-ranlib-13.3"
       - "/mnt/c/Windows/system32/gcc-ranlib-13.3"
@@ -1762,7 +1728,7 @@ events:
     found: "/usr/bin/gcc-ranlib-13"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -1775,7 +1741,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -1830,7 +1795,7 @@ events:
     found: "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -1843,7 +1808,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -1891,7 +1855,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/a1097/Project/mnist_eval/build/CMakeFiles/4.2.0-rc1/CompilerIdCXX/a.out
+        /home/a1097/Project/layla/build/CMakeFiles/4.2.0-rc1/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -1917,7 +1881,7 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -1929,7 +1893,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -1956,7 +1919,7 @@ events:
       - "/usr/local/cuda/bin/"
     searched_directories:
       - "/usr/bin/gcc-ar-13.3"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/gcc-ar-13.3"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/gcc-ar-13.3"
       - "/home/a1097/miniconda3/bin/gcc-ar-13.3"
       - "/home/a1097/miniconda3/condabin/gcc-ar-13.3"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/gcc-ar-13.3"
@@ -1968,7 +1931,6 @@ events:
       - "/usr/games/gcc-ar-13.3"
       - "/usr/local/games/gcc-ar-13.3"
       - "/usr/lib/wsl/lib/gcc-ar-13.3"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/gcc-ar-13.3"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/gcc-ar-13.3"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/gcc-ar-13.3"
       - "/mnt/c/Windows/system32/gcc-ar-13.3"
@@ -1996,7 +1958,7 @@ events:
     found: "/usr/bin/gcc-ar-13"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -2009,7 +1971,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -2061,7 +2022,7 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/"
       - "/home/a1097/miniconda3/bin/"
       - "/home/a1097/miniconda3/condabin/"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/"
@@ -2073,7 +2034,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/"
       - "/mnt/c/Windows/system32/"
@@ -2100,7 +2060,7 @@ events:
       - "/usr/local/cuda/bin/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-13.3"
-      - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli/gcc-ranlib-13.3"
+      - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli/gcc-ranlib-13.3"
       - "/home/a1097/miniconda3/bin/gcc-ranlib-13.3"
       - "/home/a1097/miniconda3/condabin/gcc-ranlib-13.3"
       - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin/gcc-ranlib-13.3"
@@ -2112,7 +2072,6 @@ events:
       - "/usr/games/gcc-ranlib-13.3"
       - "/usr/local/games/gcc-ranlib-13.3"
       - "/usr/lib/wsl/lib/gcc-ranlib-13.3"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe/gcc-ranlib-13.3"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin/gcc-ranlib-13.3"
       - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp/gcc-ranlib-13.3"
       - "/mnt/c/Windows/system32/gcc-ranlib-13.3"
@@ -2140,7 +2099,7 @@ events:
     found: "/usr/bin/gcc-ranlib-13"
     search_context:
       ENV{PATH}:
-        - "/home/a1097/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli"
+        - "/home/a1097/.vscode-server/bin/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli"
         - "/home/a1097/miniconda3/bin"
         - "/home/a1097/miniconda3/condabin"
         - "/home/a1097/cmake-4.2.0-rc1-linux-x86_64/bin"
@@ -2153,7 +2112,6 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.11.0_x64__8wekyb3d8bbwe"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin"
         - "/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp"
         - "/mnt/c/Windows/system32"
@@ -2190,8 +2148,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/a1097/Project/mnist_eval/build/CMakeFiles/CMakeScratch/TryCompile-q0pk3k"
-      binary: "/home/a1097/Project/mnist_eval/build/CMakeFiles/CMakeScratch/TryCompile-q0pk3k"
+      source: "/home/a1097/Project/layla/build/CMakeFiles/CMakeScratch/TryCompile-Qc5nLH"
+      binary: "/home/a1097/Project/layla/build/CMakeFiles/CMakeScratch/TryCompile-Qc5nLH"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -2200,10 +2158,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/a1097/Project/mnist_eval/build/CMakeFiles/CMakeScratch/TryCompile-q0pk3k'
+        Change Dir: '/home/a1097/Project/layla/build/CMakeFiles/CMakeScratch/TryCompile-Qc5nLH'
         
-        Run Build Command(s): /home/a1097/miniconda3/bin/ninja -v cmTC_5021b
-        [1/2] /usr/bin/gcc   -v -o CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o -c /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /home/a1097/miniconda3/bin/ninja -v cmTC_59277
+        [1/2] /usr/bin/gcc   -v -o CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o -c /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/gcc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -2213,8 +2171,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5021b.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5021b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccZKMV14.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_59277.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_59277.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cciw4Aft.s
         GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -2231,13 +2189,13 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 38987c28e967c64056a6454abdef726e
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5021b.dir/'
-         as -v --64 -o CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o /tmp/ccZKMV14.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_59277.dir/'
+         as -v --64 -o CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o /tmp/cciw4Aft.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /usr/bin/gcc  -v -Wl,-v CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o -o cmTC_5021b   && :
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /usr/bin/gcc  -v -Wl,-v CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o -o cmTC_59277   && :
         Using built-in specs.
         COLLECT_GCC=/usr/bin/gcc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -2250,12 +2208,12 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5021b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5021b.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsN9UXC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5021b /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59277' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_59277.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMC4M0w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_59277 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
         collect2 version 13.3.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsN9UXC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5021b /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMC4M0w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_59277 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.42
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5021b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5021b.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59277' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_59277.'
         
       exitCode: 0
   -
@@ -2290,10 +2248,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/a1097/Project/mnist_eval/build/CMakeFiles/CMakeScratch/TryCompile-q0pk3k']
+        ignore line: [Change Dir: '/home/a1097/Project/layla/build/CMakeFiles/CMakeScratch/TryCompile-Qc5nLH']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/a1097/miniconda3/bin/ninja -v cmTC_5021b]
-        ignore line: [[1/2] /usr/bin/gcc   -v -o CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o -c /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /home/a1097/miniconda3/bin/ninja -v cmTC_59277]
+        ignore line: [[1/2] /usr/bin/gcc   -v -o CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o -c /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/gcc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -2303,8 +2261,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5021b.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5021b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccZKMV14.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_59277.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_59277.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cciw4Aft.s]
         ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -2321,13 +2279,13 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 38987c28e967c64056a6454abdef726e]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5021b.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o /tmp/ccZKMV14.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_59277.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o /tmp/cciw4Aft.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /usr/bin/gcc  -v -Wl -v CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o -o cmTC_5021b   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /usr/bin/gcc  -v -Wl -v CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o -o cmTC_59277   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -2340,13 +2298,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5021b' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5021b.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsN9UXC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5021b /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59277' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_59277.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMC4M0w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_59277 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccsN9UXC.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccMC4M0w.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -2364,7 +2322,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_5021b] ==> ignore
+          arg [cmTC_59277] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -2377,7 +2335,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -2392,7 +2350,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 13.3.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsN9UXC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5021b /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_5021b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMC4M0w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_59277 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_59277.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -2430,8 +2388,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/a1097/Project/mnist_eval/build/CMakeFiles/CMakeScratch/TryCompile-z6dfEU"
-      binary: "/home/a1097/Project/mnist_eval/build/CMakeFiles/CMakeScratch/TryCompile-z6dfEU"
+      source: "/home/a1097/Project/layla/build/CMakeFiles/CMakeScratch/TryCompile-ou7NNN"
+      binary: "/home/a1097/Project/layla/build/CMakeFiles/CMakeScratch/TryCompile-ou7NNN"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2441,10 +2399,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/a1097/Project/mnist_eval/build/CMakeFiles/CMakeScratch/TryCompile-z6dfEU'
+        Change Dir: '/home/a1097/Project/layla/build/CMakeFiles/CMakeScratch/TryCompile-ou7NNN'
         
-        Run Build Command(s): /home/a1097/miniconda3/bin/ninja -v cmTC_10117
-        [1/2] /usr/bin/g++   -v -o CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o -c /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /home/a1097/miniconda3/bin/ninja -v cmTC_263f2
+        [1/2] /usr/bin/g++   -v -o CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o -c /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/g++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -2454,8 +2412,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_10117.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_10117.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccJylHGj.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_263f2.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_263f2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccXrdwzu.s
         GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -2476,13 +2434,13 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: c81c05345ce537099dafd5580045814a
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_10117.dir/'
-         as -v --64 -o CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJylHGj.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_263f2.dir/'
+         as -v --64 -o CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccXrdwzu.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /usr/bin/g++  -v -Wl,-v CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_10117   && :
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/bin/g++  -v -Wl,-v CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_263f2   && :
         Using built-in specs.
         COLLECT_GCC=/usr/bin/g++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -2495,12 +2453,12 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10117' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_10117.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccawEmgI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_10117 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_263f2' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_263f2.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cch2vipn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_263f2 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
         collect2 version 13.3.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccawEmgI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_10117 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cch2vipn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_263f2 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.42
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10117' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_10117.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_263f2' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_263f2.'
         
       exitCode: 0
   -
@@ -2541,10 +2499,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/a1097/Project/mnist_eval/build/CMakeFiles/CMakeScratch/TryCompile-z6dfEU']
+        ignore line: [Change Dir: '/home/a1097/Project/layla/build/CMakeFiles/CMakeScratch/TryCompile-ou7NNN']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/a1097/miniconda3/bin/ninja -v cmTC_10117]
-        ignore line: [[1/2] /usr/bin/g++   -v -o CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o -c /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /home/a1097/miniconda3/bin/ninja -v cmTC_263f2]
+        ignore line: [[1/2] /usr/bin/g++   -v -o CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o -c /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/g++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -2554,8 +2512,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_10117.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_10117.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccJylHGj.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_263f2.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/a1097/cmake-4.2.0-rc1-linux-x86_64/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_263f2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccXrdwzu.s]
         ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -2576,13 +2534,13 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: c81c05345ce537099dafd5580045814a]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_10117.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJylHGj.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_263f2.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccXrdwzu.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /usr/bin/g++  -v -Wl -v CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_10117   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /usr/bin/g++  -v -Wl -v CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_263f2   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/g++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -2595,13 +2553,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10117' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_10117.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccawEmgI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_10117 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_263f2' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_263f2.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cch2vipn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_263f2 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccawEmgI.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cch2vipn.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -2619,7 +2577,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_10117] ==> ignore
+          arg [cmTC_263f2] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -2632,7 +2590,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -2643,7 +2601,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 13.3.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccawEmgI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_10117 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_10117.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cch2vipn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_263f2 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_263f2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]

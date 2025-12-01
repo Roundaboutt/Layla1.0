@@ -9,9 +9,9 @@ int main()
 {
     srand(time(NULL));
 
-    std::string weights_path = "/home/a1097/Project/mnist_eval/model.bin";
-    std::string images_path = "/home/a1097/Project/mnist_eval/data/MNIST/raw/t10k-images-idx3-ubyte";
-    std::string labels_path = "/home/a1097/Project/mnist_eval/data/MNIST/raw/t10k-labels-idx1-ubyte";
+    std::string weights_path = "/home/a1097/Project/layla/mnist/model.bin";
+    std::string images_path = "/home/a1097/Project/layla/mnist/data/MNIST/raw/t10k-images-idx3-ubyte";
+    std::string labels_path = "/home/a1097/Project/layla/mnist/data/MNIST/raw/t10k-labels-idx1-ubyte";
 
     NetParameters params;
     params = getWeighs(weights_path);
